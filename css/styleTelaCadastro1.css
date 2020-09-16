@@ -55,6 +55,8 @@ label {
 }
 .box-logo-home img {
     height: 2rem;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .box-logo-home a {
@@ -99,9 +101,12 @@ label {
     font-size: 0.5rem;
 }
 
+<<<<<<< HEAD
 .box-botao{
     margin-top: 3rem;
 }
+=======
+>>>>>>> dc9032907dd940c850393c6e35707479dbb2203e
 
 #email, #senha{
     font-size: 1.4rem;
