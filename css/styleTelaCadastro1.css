@@ -49,11 +49,18 @@ label {
 }
 
 .box-logo-home{
-    height: 2rem;
+    height: 4rem;
     width: 100%;
+    display: flex;
 }
 .box-logo-home img {
     height: 2rem;
+}
+
+.box-logo-home a {
+    height: 2rem;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
 .box-logo-user{
@@ -76,6 +83,26 @@ label {
     height: 4rem;
 }
 
+.box-sugestao{
+    display: flex;
+    height: 2rem;
+    width: 17rem;
+    flex-direction: row-reverse;
+}
+
+.box-sugestao img{
+    width: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.box-sugestao label{
+    font-size: 0.5rem;
+}
+
+.box-botao{
+    margin-top: 3rem;
+}
+
 #email, #senha{
     font-size: 1.4rem;
     border: none;
@@ -87,9 +114,14 @@ label {
     text-transform: uppercase;
     background-color: #5FBAA7;
     border: none;
-    height: 4rem;
-    width: 9rem;
-    border-radius: 1rem;
+    height: 3rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: white;
 }
 
 
