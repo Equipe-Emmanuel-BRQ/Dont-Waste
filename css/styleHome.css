@@ -35,19 +35,13 @@ body::before {
     justify-content: center;
 }
 
-.box-central-home{
-    /* background-color: aliceblue; */
-}
-
 .box-logo-home{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: lightgreen; */
 }
 
 .box-text-home{
-    /* background-color: lightblue; */
     display: flex;
     flex-direction: column;
     align-items:  center;
@@ -62,7 +56,6 @@ body::before {
 
 .box-titulo-home{
     height: 12vh;
-    /* background-color: lightpink; */
 }
 
 .titulo-home{
@@ -78,17 +71,7 @@ body::before {
     color: #5FBAA7;
 }
 
-.box-subtitulo-home{
-    /* background-color: lightcoral; */
-}
-
-.box-slogan-home{
-    /* background-color: lightslategray; */
-
-}
-
 .box-botao-home{
-    /* background-color: yellowgreen; */
     display: flex;
     justify-content: space-between;
     
