@@ -9,27 +9,23 @@
 </head>
 
 <body>
-    <section class="section-container">
-        <form class="form">
-            <div class="box-logo-home">
-                <a href="index.html"><img src="img/home.svg" alt="volta para home"></a>
-            </div>
-            <div class="box-logo-user">
-                <img src="img/user.svg" alt="logo usuário">
-            </div>
-            <div class="box-email">
-                <label for="email">Email:</label>
-                <input type="email" id="email">
-            </div>
-            <div class="box-senha">
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha">
-            </div>
-            <div class="box-sugestao">
-                <img src="img/question.svg" title="A senha deve conter de 6 a 8 caracteres numéricos" alt="sugestão">
-            </div>
-            <div class="box-botao">
-                <a href="cadastroUsuario.html" class="proximo">Próximo</a>
+    <section class="section-register-user">
+        <form class="section-resgister-user-form">
+            <a href="index.html"><img src="img/home.svg" alt="volta para home" class="home-icon"></a>
+
+            <div class="section-register-user-inputs">
+                <img src="img/user.svg" alt="logo usuário" class="user-icon">
+
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" name="user-email" id="email" class="form-input">
+
+                <label for="password" class="form-label">Senha:</label>
+                <input type="password" name="user-password" id="password" class="form-input">
+
+                <img src="img/question.svg" title="A senha deve conter de 6 a 8 caracteres numéricos" alt="sugestão"
+                    class="tip-icon">
+
+                <a href="cadastroUsuario.html" class="ancor-next">Próximo</a>
             </div>
         </form>
     </section>
