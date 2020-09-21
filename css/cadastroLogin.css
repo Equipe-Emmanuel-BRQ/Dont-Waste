@@ -65,6 +65,7 @@ body::before {
     height: 5rem;
     margin-top: 10px;
     margin-left: 10px;
+    margin-bottom: 1.5rem;
 }
 .home-icon {
     height: 2rem;
@@ -90,12 +91,12 @@ body::before {
     background-color: #5FBAA7;
     border: none;
     height: 3rem;
-    width: 12rem;
+    width: 8rem;
     text-align: center;
     line-height: 3rem;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     text-decoration: none;
     color: white;
     align-self: center;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
 }
