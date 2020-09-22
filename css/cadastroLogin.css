@@ -100,3 +100,27 @@ body::before {
     align-self: center;
     margin-top: 1rem;
 }
+
+/* Container Error */
+
+.validation-container {
+    display: flex;
+    align-items: center;
+    color: red;
+    margin: .5rem 0;
+    font-weight: bold;
+}
+
+.validation-icon-error {
+    width: 1rem;
+    height: 1rem;
+}
+
+.validation-title-error {
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+.error {
+    border: 2px solid red !important;
+}

@@ -10,6 +10,7 @@
 
     <!-- Jquery Cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    
 <body>
     <section class="section-register-user">
         <form class="section-resgister-user-form">
@@ -21,17 +22,19 @@
                 <label for="email" class="form-label">Email:</label>
                 <input type="email" name="user-email" id="input-email" class="form-input">
 
-                <div>
-                    <span>Email Invalido</span>
-                </div>
-
                 <label for="password" class="form-label">Senha:</label>
                 <input type="password" name="user-password" id="input-password" class="form-input">
 
+                <div class="validation-container">
+                    <img src="./img/icon/warning.svg" class="validation-icon-error">
+                    <span class="validation-title-error">Email ou senha Invalidos</span>
+                </div>
                 <img src="img/question.svg" title="A senha deve conter de 6 a 8 caracteres numéricos" alt="sugestão"
                     class="tip-icon">
 
                 <a href="#" class="ancor-next">Próximo</a>
+
+            
             </div>
         </form>
     </section>
