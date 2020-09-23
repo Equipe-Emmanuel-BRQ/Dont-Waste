@@ -124,3 +124,26 @@ body::before {
 .error {
     border: 2px solid red !important;
 }
+
+@media only screen and (min-width: 0) and (max-width: 600px) {
+    .section-resgister-user-form{
+        width: 90%;
+        height: auto;
+    }
+
+    .section-register-user-inputs{
+        width: 90%;
+    }
+
+    .form-input{
+        height: 2.2rem;
+    }
+
+    .form-label {
+        margin-top: .8rem;
+    }
+
+    .ancor-next{
+        margin: 1rem 0;
+    }
+}
