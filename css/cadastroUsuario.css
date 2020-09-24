@@ -35,13 +35,17 @@ a {
     justify-content: center;
 }
 
-.main-form-fieldset {
+.main-form {
     width: 80%;
-    height: 75vh;
     margin: 0 auto;
-    border: none;
     border-radius: 10px;
     background-color: #fff;
+}
+
+.main-form-fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
 }
 
 .main-form-content {
@@ -49,7 +53,7 @@ a {
     height: auto;
     align-content: center;
     display: grid;
-    grid-template-columns: repeat(4, 14.5rem);
+    grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(4, 6rem);
     align-items: center;
 }
@@ -111,22 +115,17 @@ a {
 }
 
 .btn-voltar {
-    grid-column: 2 / 2;
-    grid-row: 4 / 5;
     align-self: center;
     justify-self: end;
-    margin-right: 21%;
     text-align: center;
     line-height: 2rem;        
 }
 
 .btn-salvar {
-    grid-column: 3 / 4;
-    grid-row: 4 / 5;
     align-self: center;
-    margin-left: 21%;
     line-height: 2rem;    
     text-align: center;
+    margin-left: 10%;
 }
 
 .form-input, .form-select {
@@ -165,6 +164,7 @@ a {
     height: 1rem;
 }
 
+
 .validation-title-error {
     font-size: 1rem;
     margin-left: .5rem;
@@ -174,6 +174,72 @@ a {
     border: 2px solid red !important;
 }
 
+.ancor-option {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / 8;
+    grid-row: 4 / 4;
+}
+
 ::placeholder {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 0) and (max-width: 765px) {
+
+    .main-form {
+        width: 90%;
+    }
+
+    .container {
+        padding: .8rem;
+    }
+
+    .main-form-content{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .form-input, .form-select  {
+        width: 100%;
+        padding: 0;    
+    }
+    .formfield-user-img, .form-container-name, .form-container-amount, .form-container-date,
+    .form-container-sale {
+        grid-column: 1 /1;
+      
+    }
+
+    .formfield-user-img {
+        grid-row: 1 / 2;
+    }
+
+    .form-container-name {
+        grid-row: 2 / 3;
+    }
+    
+    .form-container-amount {
+        grid-row: 3 / 4;
+    }
+    
+    .form-container-date {
+        grid-row: 4 / 5;
+    }
+    
+    .form-container-sale {
+        grid-row: 5 / 6;
+    }
+
+    .ancor-option {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        grid-column: 1 / 1;
+        grid-row: 6 / 7;
+        margin: 1rem 0;
+    }
+    .btn-salvar, .btn-voltar {
+        width: 40%;
+    }
 }
