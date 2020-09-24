@@ -1,6 +1,6 @@
 ### Dont-Waste
 
-![Logo do Projeto](https://github.com/Equipe-Emmanuel-BRQ/Dont-Waste/blob/master/img/LogoPng.png) 
+![Logo do Projeto](https://github.com/Equipe-Emmanuel-BRQ/Dont-Waste/blob/master/img/LogoPng.png  =100x150) 
 
 ##Sobre o projeto
 
