@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="css/cadastroUsuario.css">
 </head>
 
+<!-- Jquery Cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
 <body>
   <main class="main">
     <form class="main-form">
@@ -26,7 +29,7 @@
 
           <div class="container form-container-amount">
             <label class="form-label-title">Quantidade de pessoas que residem na casa: </label>
-            <select class="form-select">
+            <select id="select-people-number" class="form-select">
               <option disabled selected>Selecione</option>
               <option>1</option>
               <option>2</option>
@@ -36,12 +39,14 @@
 
           <div class="container form-container-date">
             <label class="form-label-title">Qual a data da sua última compra?</label>
-            <input type="date" name="" id="" class="form-input">
+            <input type="date" name="" id="input-date" class="form-input">
           </div>
 
           <div class="container form-container-sale">
-            <label class="form-label-title">Com que freq uência faz compras</label>
-            <select class="form-select">
+
+            <label class="form-label-title">Com que frequência faz compras</label>
+            <select id="select-sale" class="form-select">
+
               <option disabled selected>Selecione</option>
               <option>Pontual</option>
               <option>Semanal</option>
@@ -49,6 +54,12 @@
               <option>Mensal</option>
             </select>
           </div>
+
+
+          <div class="validation-container">
+            <img src="./img/icon/warning.svg" class="validation-icon-error">
+            <span class="validation-title-error">Preencha todos os campos</span>
+        </div>
 
           <div class="ancor-option">
             <a href="cadastroLogin.html" class="form-btn btn-voltar">Voltar</a>
@@ -59,6 +70,7 @@
       </fieldset>
     </form>
   </main>
+  <script src="./js/cadastroUsuario.js"></script>
 </body>
 
 </html>

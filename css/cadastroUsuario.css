@@ -105,6 +105,15 @@ a {
     grid-row: 3 / 4;
 }
 
+.validation-container{
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    justify-self: center;
+    align-self: flex-start;
+    margin-bottom: 1rem;
+    height: 2rem;
+}
+
 .btn-voltar {
     align-self: center;
     justify-self: end;
@@ -139,6 +148,30 @@ a {
     background-color: #5FBAA7;
     color: #fff;
     text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.validation-container {
+    display: flex;
+    align-items: center;
+    color: red;
+    margin: .5rem 0;
+    font-weight: bold;
+}
+
+.validation-icon-error {
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.validation-title-error {
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+.error {
+    border: 2px solid red !important;
 }
 
 .ancor-option {
@@ -148,6 +181,7 @@ a {
     grid-column: 1 / 8;
     grid-row: 4 / 4;
 }
+
 ::placeholder {
     font-family: Arial, Helvetica, sans-serif;
 }
