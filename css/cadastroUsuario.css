@@ -54,7 +54,7 @@ a {
     align-content: center;
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(4, 6rem);
+    grid-template-rows: repeat(3, 6rem) 2rem 6rem;
     align-items: center;
 }
 
@@ -152,6 +152,8 @@ a {
 }
 
 .validation-container {
+    grid-column: 1 / 8;
+    grid-row: 4 / 4;
     display: flex;
     align-items: center;
     color: red;
@@ -179,7 +181,7 @@ a {
     display: flex;
     justify-content: center;
     grid-column: 1 / 8;
-    grid-row: 4 / 4;
+    grid-row: 5 / 6;
 }
 
 ::placeholder {
@@ -198,7 +200,7 @@ a {
 
     .main-form-content{
         grid-template-columns: 100%;
-        grid-template-rows: repeat(6, auto);
+        grid-template-rows: repeat(5, auto) 1rem 6rem ;
     }
 
     .form-input, .form-select  {
@@ -212,6 +214,8 @@ a {
     }
 
     .formfield-user-img {
+        width: 3rem;
+        height: 3rem;
         grid-row: 1 / 2;
     }
 
@@ -236,8 +240,15 @@ a {
         display: flex;
         justify-content: space-around;
         grid-column: 1 / 1;
+        grid-row: 7 / 8;
+        margin: 0;
+        padding: 1rem 0;
+    }
+    
+    .validation-container{
+        grid-column: 1 / 1;
         grid-row: 6 / 7;
-        margin: 1rem 0;
+        margin: 0 ;
     }
     .btn-salvar, .btn-voltar {
         width: 40%;
