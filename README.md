@@ -1,21 +1,29 @@
-### Dont-Waste
+# Dont-Waste
 
 ![Logo do Projeto](https://github.com/Equipe-Emmanuel-BRQ/Dont-Waste/blob/master/img/LogoPng.png) 
 
 ## Sobre o projeto
 
-Don't Waste é uma plataforma desenvolvida para fazer o controle de estoque e desperdício de compras, está disponível tanto na versão Web quando na versão Mobile.
+Don't Waste é uma plataforma desenvolvida para fazer o controle de estoque e desperdício de compras, está disponível tanto na versão Web quando na versão Mobile. 
+ *Link repositório* - (https://github.com/p-cardozo/dont-waste).
+
 Após realizar um cadastro básico na plataforma, será possível fazer o controle de estoque de compras, recebendo notificações de quais alimentos estão próximos de acabar, quantos itens existe em estoque de cada tipo de alimento e também quais alimentos estão próximos da data de vencimento. 
 
 ## Tecnologias usadas até o momento:
 
+ ### Web:
+ 
   * HTML5
   * CSS3
-  * JQuery
-
-## Serviços usados
+  * JavaScript
   
-  *GitHub
+ ### Mobile:
+  
+  * Swift
+
+## Serviços usados:
+  
+  * GitHub
 
 ## Como utilizar:
 
@@ -28,7 +36,7 @@ Após realizar um cadastro básico na plataforma, será possível fazer o contro
 ### 3 - Nessa tela, coloque suas informações básicas de compras e clique em "Salvar" (É através dessas infomações que o sistema fará os levantamentos para controle do seu estoque).
 ![Tela de Cadastro/Usuário](https://github.com/Equipe-Emmanuel-BRQ/Dont-Waste/blob/master/img/telas/TelaCadastroUsuario.PNG)
 
-# (As demais telas serão adcionadas em breve, conforme forem desenvolvidas).
+## (Observação: As demais telas serão adcionadas em breve, conforme forem desenvolvidas).
 
 ## Principais recursos da aplicação:
 
@@ -39,11 +47,16 @@ Após realizar um cadastro básico na plataforma, será possível fazer o contro
   
 ## Desenvolvido por:
 
+ ### Web:
+
  * **Erian Erik**: (https://github.com/erianerik)
  * **Carla Dias**: (https://github.com/Carllotta)
  * **Douglas Lucena**: (https://github.com/DouglasLucena)
  * **Larissa de Moraes**: (https://github.com/Larissamorais)
- * **Gabriel Marinho**: ()
- * **Patricia Cardoso**: ()
+ 
+ ### Mobile:
+ 
+ * **Gabriel Marinho**: (https://github.com/GabrielM13)
+ * **Patricia Cardoso**: (https://github.com/p-cardozo)
  
 
